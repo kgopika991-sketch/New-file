@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <title>Category - E-Shop</title>
+</head>
+<body>
+  <header><h1>Category</h1></header>
+  <section class="filters">
+    <label>Min Price: <input type="number" id="minPrice" /></label>
+    <label>Max Price: <input type="number" id="maxPrice" /></label>
+    <button onclick="applyFilters()">Filter</button>
+  </section>
+  <main id="product-list" class="product-grid"></main>
+
+  <script src="data/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
